@@ -1,0 +1,33 @@
+body {
+    background-color: #3b3bbb;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0px;
+}
+button {
+    background-color: rgb(35, 167, 190);
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    height: 60px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
